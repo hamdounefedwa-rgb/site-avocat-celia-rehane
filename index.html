@@ -243,7 +243,8 @@
           </div>
 
           <div class="contact-form-card reveal delay-1">
-            <form class="contact-form">
+          <form name="contact" method="POST" data-netlify="true" class="contact-form">
+  <input type="hidden" name="form-name" value="contact" />
               <div class="form-row">
                 <input type="text" placeholder="Nom" />
                 <input type="text" placeholder="Prénom" />
