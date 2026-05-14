@@ -243,20 +243,28 @@
           </div>
 
           <div class="contact-form-card reveal delay-1">
-          <form name="contact" method="POST" data-netlify="true" class="contact-form">
+<form
+  name="contact"
+  method="POST"
+  data-netlify="true"
+  netlify
+  class="contact-form"
+>
   <input type="hidden" name="form-name" value="contact" />
-             <div class="form-row">
-  <input type="text" name="nom" placeholder="Nom" required />
-  <input type="text" name="prenom" placeholder="Prénom" required />
-</div>
 
-<input type="tel" name="telephone" placeholder="Téléphone" required />
+  <div class="form-row">
+    <input type="text" name="nom" placeholder="Nom" required />
+    <input type="text" name="prenom" placeholder="Prénom" required />
+  </div>
 
-<input type="email" name="email" placeholder="Email" />
+  <input type="tel" name="telephone" placeholder="Téléphone" required />
 
-<textarea name="message" placeholder="Votre message" required></textarea>
-              <button type="submit" class="btn btn-dark">Envoyer</button>
-            </form>
+  <input type="email" name="email" placeholder="Email" required />
+
+  <textarea name="message" placeholder="Votre message" required></textarea>
+
+  <button type="submit" class="btn btn-dark">Envoyer</button>
+</form>
           </div>
         </div>
       </section>
